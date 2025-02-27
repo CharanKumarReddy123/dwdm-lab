@@ -10,6 +10,6 @@ f <- frequency[median_class_index]
 h <- age_intervals[[median_class_index]][2] - age_intervals[[median_class_index]][1]
 median_value <- L + ((median_position - CF) / f) * h
 print(paste("Approximate Median:", median_value))
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 OUTPUT:
 Approximate Median: 32.94
